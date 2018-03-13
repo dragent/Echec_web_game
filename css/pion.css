@@ -1,0 +1,160 @@
+.noir.roi.Mario
+{
+	background-image:url(../pion/mariobot.png);
+}
+.blanc.roi.Mario
+{
+	background-image:url(../pion/mariotop.png);
+}
+.noir.reine.Mario
+{
+	background-image:url(../pion/peachbot.png);
+}
+.blanc.reine.Mario
+{
+	background-image:url(../pion/peachtop.png);
+}
+.noir.cavalier.Mario
+{
+	background-image:url(../pion/yoshibot.png);
+}
+.blanc.cavalier.Mario
+{
+	background-image:url(../pion/yoshitop.png);
+}
+.noir.tour.Mario
+{
+	background-image:url(../pion/bowserbot.png);
+}
+.blanc.tour.Mario
+{
+	background-image:url(../pion/bowsertop.png);
+}
+.noir.fou.Mario
+{
+	background-image:url(../pion/luigibot.png);
+}
+.blanc.fou.Mario
+{
+	background-image:url(../pion/luigitop.png);
+}
+.noir.pion.p1.Mario
+{
+	background-image:url(../pion/koopavertbot.png);
+}
+.noir.pion.p2.Mario
+{
+	background-image:url(../pion/kooparougebot.png);
+}
+.blanc.pion.p1.Mario
+{
+	background-image:url(../pion/koopaverttop.png);
+}
+.blanc.pion.p2.Mario
+{
+	background-image:url(../pion/kooparougetop.png);
+}
+.Mario.tourpris
+{
+	background-image:url(../pion/bowserpris.png);
+}
+.pionpris.p1.Mario
+{
+	background-image:url(../pion/koopavertpris.png);
+}
+.pionpris.p2.Mario
+{
+	background-image:url(../pion/kooparougepris.png);
+}
+.Mario.cavalierpris
+{
+	background-image:url(../pion/yoshipris.png);
+}
+.Mario.foupris
+{
+	background-image:url(../pion/luigipris.png);
+}
+.Mario.reinepris
+{
+	background-image:url(../pion/peachpris.png);
+}
+
+.blanc.cavalier.Sonic
+{
+	background-image:url(../pion/tailstop.png);
+}
+.noir.cavalier.Sonic
+{
+	background-image:url(../pion/tailsbot.png);
+}
+.noir.reine.Sonic
+{
+	background-image:url(../pion/amybot.png);
+}
+.blanc.reine.Sonic
+{
+	background-image:url(../pion/amytop.png);
+}
+.blanc.tour.Sonic
+{
+	background-image:url(../pion/knucklestop.png);
+}
+.noir.tour.Sonic
+{
+	background-image:url(../pion/knucklesbot.png);
+}
+.noir.roi.Sonic
+{
+	background-image:url(../pion/sonicbot.png);
+}
+.blanc.roi.Sonic
+{
+	background-image:url(../pion/sonictop.png);
+}
+.noir.fou.Sonic
+{
+	background-image:url(../pion/shadowbot.png);
+}
+.blanc.fou.Sonic
+{
+	background-image:url(../pion/shadowtop.png);
+}
+.blanc.pion.p2.Sonic
+{
+	background-image:url(../pion/herochaostop.png);
+}
+.blanc.pion.p1.Sonic
+{
+	background-image:url(../pion/darkchaostop.png);
+}.noir.pion.p2.Sonic
+{
+	background-image:url(../pion/herochaosbot.png);
+}
+.noir.pion.p1.Sonic
+{
+	background-image:url(../pion/darkchaosbot.png);
+}
+.Sonic.reinepris
+{
+	background-image:url(../pion/amypris.png);
+}
+.Sonic.tourpris
+{
+	background-image:url(../pion/knucklespris.png);
+}
+.Sonic.cavalierpris
+{
+	background-image:url(../pion/tailspris.png);
+}
+.Sonic.foupris
+{
+	background-image:url(../pion/shadowpris.png);
+}
+.pionpris.p1.Sonic
+{
+	background-image:url(../pion/darkchaospris.png);
+}
+.pionpris.p2.Sonic
+{
+	background-image:url(../pion/herochaospris.png);
+}

@@ -1,0 +1,207 @@
+#echequier td
+{
+	width:45px;
+	height:45px;
+	border-width:5px; 
+	border-style:solid; 
+ 	border-color:black;
+}
+#joueur1
+{
+	position:absolute;
+	bottom:30%;
+	left:40%;
+}
+#vainqueur
+{
+	position:absolute;
+	top:10;
+	left:5%;
+}
+#joueur2
+{
+	position:absolute;
+	top:30%;
+	left:40%;
+}
+#valider
+{
+	padding: 3px 30px;
+	background-color: #FFFFFF;
+	border: 4px solid #000000;
+	position:fixed;
+	top:45%;
+	left: 42%;
+}
+#valider:hover {
+	background-color: black;
+	color:white;
+	border: 4px solid silver;
+}
+.pris_noir td
+{
+	width:40px;
+	height:40px;
+	border-width:5px; 
+
+}
+.pris_noir
+{
+	background-color:white;
+	position:absolute;
+	top:167px;
+	right:0px;
+}
+
+.pris_blanc td
+{
+	width:40px;
+	height:40px;
+	border-width:5px; 
+}
+.pris_blanc
+{
+	background-color:white;
+	position:absolute;
+	bottom:167px;
+	right:0px;
+}
+body
+{
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+   	background-size: 100% 100%; 
+	background-color:black;
+}
+ #fondsonic
+{
+	position:absolute;
+	right:0%;
+}
+ #fondmario
+{
+	position:absolute;
+	right:0%;
+}
+#echequier
+{
+	position: absolute; 
+	left:0%;
+ 	top:20%;
+	background-color:white;
+} 
+#tour
+{
+	right:10%;
+}
+
+.pair
+{
+	background-color:black;
+}
+
+.impair
+{
+	background-color:white;
+}
+.possible
+{
+	background-color:blue;
+}
+.active
+{
+	border-color:blue;
+}
+input
+{
+	background-color: rgba(0, 0, 0, 0);
+	color:white;
+}
+#Choix_equipe
+{
+	position:absolute;
+	top:47.5%;
+	left:38%;
+	color:white;
+	font-size:175%;
+}
+
+#mario
+{
+	position:absolute;
+	width:100.5%;
+	height:50%;
+	left:-0.5%;
+	top:0%;
+}
+#sonic
+{
+	position:absolute;
+	width:100%;
+	height:50%;
+	left:0%;
+	bottom:0%;
+}
+
+#Abandon
+{
+	position:absolute;
+	right:10%;
+	top:45%;
+}
+#Abandon:hover {
+	background-color: black;
+	color:white;
+	border: 4px solid silver;
+}
+#temp_de_jeu
+{
+	position:absolute;
+	top:30%;
+	left:36%;
+}
+#joueur
+{
+	position:absolute;
+	top:40%;
+	left:36%;
+	width:20%;
+}
+#horloge
+{
+	position:absolute;
+	top:60%;
+	left:36%;
+}
+#tour
+{
+	position:absolute;
+	top:50%;
+	left:36%;
+}
+.reine.promotion
+{
+	position:absolute;
+	left:15%;
+}
+.fou.promotion
+{
+	position:absolute;
+	left:35%;
+}
+.cavalier.promotion
+{
+	position:absolute;
+	left:55%;
+}
+.tour.promotion
+{
+	position:absolute;
+	left:75%;
+}
+.promotion
+{
+	position:absolute;
+	top:35%;
+}

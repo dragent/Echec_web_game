@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="../javascript/jquery-2.1.0.min.js"></script>
+		<link rel="stylesheet" href="../css/echequier_jeu.css"/>
+		<link rel="stylesheet" href="../css/pion.css"/>
+		<script src="../javascript/echec.js"></script>
+		<script src="../javascript/coup_jouable.js"></script>
+		<script src="../javascript/jouer_coup.js"></script>
+		<script src="../javascript/limitation_coups.js"></script>
+		<title> Mario vs Sonic Chess </title>
+	</head>
+	<body onload=vision(0)>
+		<audio src="../son/Super Mario coin sound (!).mp3" id="son_start" autoplay></audio>
+		<img  src="../image/team_mario.png" id="mario" onclick="equipej1('Mario')"></img>
+		<img  src="../image/team_sonic.png" id="sonic" onclick="equipej1('Sonic')"></img>
+		<span id="Choix_equipe">Joueur 1 choississez votre equipe</span>
+		<input type='text' id="joueur1" placeholder="Tapez le nom du joueur 1"></input>
+		<input type='text' id="joueur2" placeholder="Tapez le nom du joueur 2"></input>
+		<button id="valider" onclick="test_start()">Confirmez</button>
+		<img id="fondsonic" src="../image/fondsonic_jeu.png"></img>
+		<img id="fondmario" src="../image/fondmario_jeu.png"></img>
+		<table id="echequier"></table>
+		<table class="pris_noir"> <tr id='lignen'></tr></table>
+		<table class="pris_blanc" ><tr id='ligneb'></tr></table>
+		<input type='text' id="tour" value="tour : 1" readonly></input>
+		<input type='text' id="joueur"readonly></input>
+		<input type='text' id="temp_de_jeu" value="duree de jeu: 0:  0" readonly></input>
+		<input type='text' id="horloge"  readonly></input>
+		<input type='text' id="vainqueur"  readonly></input>
+		<img  src="../image/amy.png" id="amy" onclick="evolution(0)"class="reine promotion"></img>
+		<img  src="../image/shadow.png" id="shadow" onclick=" evolution(2)"class="fou promotion"></img>
+		<img  src="../image/tails.png" id="tails" onclick=" evolution(1)"class="cavalier promotion"></img>
+		<img  src="../image/knuckles.png" id="knuckles" onclick=" evolution(3)"class="tour promotion"></img>
+		<img  src="../image/peach.png" id="peach" onclick="evolution(0)"class="reine promotion"></img>
+		<img  src="../image/Luigi.png" id="luigi" onclick=" evolution(2)"class="fou promotion"></img>
+		<img  src="../image/Yoshi.png" id="yoshi"onclick=" evolution(1)"class="cavalier promotion"></img>
+		<img  src="../image/bowser.png" id="bowser" onclick=" evolution(3)"class="tour promotion"></img>
+		<button id="Abandon" onclick="perdu()" > Abandoner </button>
+	</body>
+</html>
